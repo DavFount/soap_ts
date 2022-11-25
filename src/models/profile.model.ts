@@ -15,6 +15,7 @@ export interface IProfile {
   organization: string;
   phone: string;
   mobile: string;
+  friends: Types.ObjectId[];
 }
 
 const profileSchema = new Schema<IProfile>(
@@ -76,7 +77,15 @@ const profileSchema = new Schema<IProfile>(
     mobile: {
       type: String,
       required: false
-    }
+    },
+    friends: [
+      {
+        type: Schema.Types.ObjectId,
+        required: false,
+        default: [],
+        ref: 'User'
+      }
+    ]
   },
   { timestamps: true }
 );

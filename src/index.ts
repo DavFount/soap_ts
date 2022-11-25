@@ -31,6 +31,9 @@ app.use('/api/v1/languages', langRoutes);
 import userRoutes from './routes/user.routes';
 app.use('/api/v1/users', userRoutes);
 
+import friendRoutes from './routes/friend.routes';
+app.use('/api/v1/friends', friendRoutes);
+
 // Define HTTP Server (used with Socket IO)
 const server: Server = createServer(app);
 
