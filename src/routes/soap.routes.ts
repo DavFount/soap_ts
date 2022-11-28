@@ -13,39 +13,7 @@ router
   })
   .post(auth, async (req: Request, res: Response) => {
     try {
-      const {
-        userId,
-        title,
-        verse,
-        scripture,
-        observation,
-        application,
-        prayer,
-        isPublic
-      } = req.body;
-
-      if (
-        !userId ||
-        !title ||
-        !verse ||
-        !scripture ||
-        !observation ||
-        !application ||
-        !prayer
-      ) {
-        return res.status(400).json({ msg: 'Missing information' });
-      }
-
-      const soap = new Soap({
-        userId,
-        title,
-        verse,
-        scripture,
-        observation,
-        application,
-        prayer,
-        isPublic
-      });
+      const soap = new Soap(req.body);
 
       await soap.save();
       res.status(200).json(soap);
