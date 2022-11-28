@@ -150,7 +150,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-David - david@thesoapdish.app
+David - david@thesoapdish.app <br />
 Projects:
 
 - [The SOAP Dish API](https://github.com/DavFount/soap_ts)
