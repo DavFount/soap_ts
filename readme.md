@@ -89,7 +89,7 @@ This application was built using Express.js on the backend and Vue.JS on the fro
 
 ## Getting Started
 
-This application is still in the development phase. You are welcome to download or browse the code if you'd like. However, the code is rapidly changing and your local copy will likly be outdated very quickly. Once he application is completed you will be able to access it on the web by going to [The SOAP Dish](https://thesoapdish.app).
+This application is still in the development phase. You are welcome to download or browse the code if you'd like. However, the code is rapidly changing and your local copy will likly be outdated very quickly. Once the application is completed you will be able to access it on the web by going to [The SOAP Dish](https://thesoapdish.app).
 
 ### Prerequisites
 
