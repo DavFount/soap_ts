@@ -184,7 +184,7 @@ Projects:
 [issues-shield]: https://img.shields.io/github/issues/DavFount/soap_ts?style=for-the-badge
 [issues-url]: https://github.com/DavFount/soap_ts/issues
 [license-shield]: https://img.shields.io/github/license/DavFount/soap_ts?style=for-the-badge
-[license-url]: https://github.com/DavFount/soap_ts/LICENSE.txt
+[license-url]: https://github.com/DavFount/soap_ts/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/davfount/
 [product-screenshot]: https://github.com/DavFount/soap/blob/main/ProductPreview.jpg?raw=true
