@@ -180,7 +180,7 @@ Projects:
 [contributors-url]: https://github.com/DavFount/soap_ts/graphs/contributors
 [commit-shield]: https://img.shields.io/github/last-commit/DavFount/soap_ts?style=for-the-badge
 [commit-url]: https://github.com/DavFount/soap_ts
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/DavFount/soap_ts?style=for-the-badge
 [stars-url]: https://github.com/DavFount/soap_ts/stargazers
 [issues-shield]: https://img.shields.io/github/issues/DavFount/soap_ts?style=for-the-badge
 [issues-url]: https://github.com/DavFount/soap_ts/issues
