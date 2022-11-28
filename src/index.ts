@@ -34,6 +34,9 @@ app.use('/api/v1/users', userRoutes);
 import friendRoutes from './routes/friend.routes';
 app.use('/api/v1/friends', friendRoutes);
 
+import soapRoutes from './routes/soap.routes';
+app.use('/api/v1/soap', soapRoutes);
+
 // Define HTTP Server (used with Socket IO)
 const server: Server = createServer(app);
 

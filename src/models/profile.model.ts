@@ -44,7 +44,8 @@ const profileSchema = new Schema<IProfile>(
     language: {
       type: Schema.Types.ObjectId,
       ref: 'Language',
-      required: false
+      required: false,
+      default: '6380948c3b7a57ec720b7e5e'
     },
     bible: {
       type: String,
